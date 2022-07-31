@@ -1,0 +1,70 @@
+Link {
+    text-align: center;
+}
+
+.project--heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    font-size: 2rem;
+}
+
+.Project--container {
+    max-width: 1140px;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem; 
+}
+
+
+.project--card {
+    background: transparent;
+    padding: 1.2rem 1rem;
+    border-radius: 5px;
+    opacity: 1;
+    border: 1px solid green;
+    width: 100%;
+} 
+
+.project--card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.project--title {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.project--details {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.project--btns {
+    display: flex;
+    justify-content: space-between;
+    padding: .9rem 0;
+} 
+
+
+
+@media screen and (max-width: 1165px) {
+    .Project--container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Project--container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
