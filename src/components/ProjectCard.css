@@ -62,7 +62,7 @@ Link {
 
 @media screen and (max-width: 800px) {
     .Project--container {
-        max-width: 80%;
+        max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
     }
