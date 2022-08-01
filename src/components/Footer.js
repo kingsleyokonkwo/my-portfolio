@@ -30,7 +30,7 @@ export default function Footer() {
                             <a href="mailto: kingsleyokonkwo16@gmail.com">
                                 <FaMailBulk size={20} 
                                 style={{ color: "green", marginRight: "2rem"}} />
-                                info@gmail.com
+                                kingsleyokonkwo16@gmail.com
                             </a>
                         </h3>
                     </div>
