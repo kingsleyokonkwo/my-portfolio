@@ -7,8 +7,8 @@ const ProjectCardData = [
         imgsrc: portfolio,
         title: "My React Portfolio Website",
         text: "I created this to easily display my works.",
-        view: "https://www.google.com",
-        source: "https://github.com/kingsleyokonkwo/Calculator"
+        view: "https://kingsleyokonkwo.github.io/my-portfolio/",
+        source: "https://github.com/kingsleyokonkwo/my-portfolio"
     },
 
     {
@@ -23,8 +23,8 @@ const ProjectCardData = [
         imgsrc: pro2,
         title: "Loading...",
         text: "Coding is fun, they said.",
-        view: "https://www.google.com",
-        source: "https://github.com/kingsleyokonkwo/Calculator"
+        view: "https://kingsleyokonkwo.github.io/my-portfolio/",
+        source: "https://kingsleyokonkwo.github.io/my-portfolio/"
     }
 ]
 
