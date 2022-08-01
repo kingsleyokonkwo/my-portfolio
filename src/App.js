@@ -9,7 +9,7 @@ import Project from "./routes/Project";
 function App() {
   return (
     <>
-      <Routes>
+      <Routes basename="my-portfolio">
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Project />} />
         <Route path="/about" element={<About />} />
