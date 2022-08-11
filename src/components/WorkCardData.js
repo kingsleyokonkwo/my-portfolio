@@ -1,6 +1,6 @@
 import portfolio from "../images/Portfolio-img.jpg"
-import calculator from "../images/calc.jpg"
 import pro2 from "../images/Loading.jpg"
+import Learnit from "../images/Landing-page.png"
 
 const ProjectCardData = [
     {
@@ -12,11 +12,11 @@ const ProjectCardData = [
     },
 
     {
-        imgsrc: calculator,
-        title: "Calculator",
-        text: "I designed this calculator with an iPhones interface.",
-        view: "https://kingsleyokonkwo.github.io/Calculator/",
-        source: "https://github.com/kingsleyokonkwo/Calculator"
+        imgsrc: Learnit,
+        title: "Learn It Website",
+        text: "I implemented light and dark mode features.",
+        view: "https://kingsleyokonkwo.github.io/Learn-It-web/",
+        source: "https://github.com/kingsleyokonkwo/Learn-It-web"
     },
 
     {
