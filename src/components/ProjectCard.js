@@ -4,7 +4,9 @@ import "./ProjectCard.css"
 export default function ProjectCard(props) {
     return(
                 <div className="project--card">
-                    <img src={props.imgsrc} alt="display of my work" />
+                    <a href={props.view} >
+                        <img src={props.imgsrc} alt="display of my work" />
+                    </a>
                     <h2 className="project--title">{props.title}</h2>
                     <div className="project--details">
                         <p>{props.text}</p>
