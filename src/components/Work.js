@@ -5,7 +5,7 @@ import WorkCardData from "./WorkCardData"
 
 export default function Work() {
     return(
-        <div className="work--container">
+        <div className="work--container" id="project">
             <h1 className="project--heading">Projects</h1>
             <div className="Project--container">
                 {WorkCardData.map((val, ind) => {

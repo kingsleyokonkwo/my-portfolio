@@ -1,12 +1,15 @@
 import React from "react";
 import "./Navbar.css"
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 import { FaBars, FaTimes } from "react-icons/fa"
 
 export default function Navbar() {
     const [click, setClick] = React.useState(false)
     const handleClick = () => {
         setClick(!click)
+    }
+    const homeClick = () => {
+        setClick(false)
     }
 
     const [color, setColor] = React.useState(false)
@@ -22,22 +25,22 @@ export default function Navbar() {
 
     return(
         <div className={color ? "header header-bg" : "header"}>
-            <Link to="/">
+            <Link to="hero" spy={true} smooth={true} offset={50} duration={500} onClick={homeClick}>
                 <h1>keneCode</h1>
             </Link>
 
             <ul className={click ? "nav--links active" : "nav--links"}>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="hero" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/project">Project</Link>
+                    <Link to="about" spy={true} smooth={true} offset={-150} duration={500} onClick={handleClick}>About</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="project" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>Project</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>Contact</Link>
                 </li>
             </ul>
 

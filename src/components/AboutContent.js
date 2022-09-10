@@ -1,6 +1,6 @@
 import React from "react"
 import "./AboutContent.css"
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 import Kene from "../images/kene.jpeg"
 import KeneBack from "../images/bg-dark.jpg"
 import Aos from "aos"
@@ -12,9 +12,9 @@ export default function AboutContent() {
         Aos.init({duration: 2000})
     }, [])
     return(
-        <div className="about">
+        <div className="about" id="about">
             <div className="about--left">
-                <h1 data-aos="zoom-in">Who Am I?</h1>
+                <h1>Who Am I?</h1>
                 <p data-aos="zoom-up-in">
                     I am Okonkwo Kenechukwu Kingsley, I am an easy going web developer. Sometimes I enjoy what I do, sometimes
                     I don't but I get it done in both times, lol.
@@ -25,7 +25,7 @@ export default function AboutContent() {
                 <p data-aos="zoom-up-in">
                     I decided to learn React so as to do my work more efficiently.
                 </p>
-                <Link to="/contact">
+                <Link to="contact">
                     <button className="btn">CONTACT</button>
                 </Link>
             </div>

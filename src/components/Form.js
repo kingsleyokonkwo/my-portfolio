@@ -21,7 +21,7 @@ export default function Form() {
 
     return(
 
-        <div className="form" onSubmit={sendEmail}>
+        <div className="form" onSubmit={sendEmail} id="contact">
             <h1 className="form--heading">Contact Me!</h1>
             <form>
                 <label>Name</label>
