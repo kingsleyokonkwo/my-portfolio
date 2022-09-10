@@ -1,9 +1,15 @@
 import React from "react"
 import "./ProjectCard.css"
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react"
 
 export default function ProjectCard(props) {
+    useEffect(() => {
+        Aos.init({duration: 3000})
+    }, [])
     return(
-                <div className="project--card">
+                <div className="project--card" data-aos="zoom-in">
                     <a href={props.view} >
                         <img src={props.imgsrc} alt="display of my work" />
                     </a>

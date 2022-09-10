@@ -12,7 +12,7 @@ export default function Footer() {
                         style={{ color: "green", marginRight: "2rem"}} />
 
                         <div>
-                            <p>Enugu, Enugu State</p>
+                            <p>Lagos State</p>
                             <p>Nigeria</p>
                         </div>
                     </div>
